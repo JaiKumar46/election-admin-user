@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Blaka&display=swap');
+
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+ 
+  font-family: 'Blaka', cursive;
+  background-image: url("./Assesst/valley-63564__340.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  /* background-blend-mode: color;
+  background-color: rgba(0, 0, 0, 0.445); */
+
+}
+.ahover{
+  color: white;
+}
+.ahover:hover{
+color: blue;
+padding: 2px;
+}
+
+.language{
+  line-height: 2rem;
+  
+}

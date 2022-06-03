@@ -1,0 +1,44 @@
+{
+  "user": [
+    {
+      "name": "akash",
+      "username": "akashsingh",
+      "email": "akash@gmail.com",
+      "phone": "98786756564",
+      "id": 2,
+      "password": "akash526"
+    },
+    {
+      "name": "suraj",
+      "username": "suraj123",
+      "email": "suraj@gmail.com",
+      "phone": "9956976967",
+      "id": 3,
+      "password": "suraj859"
+    },
+    {
+      "name": "rakesh",
+      "username": "rakesh",
+      "email": "rakesh@gmail.com",
+      "phone": "9579579575",
+      "id": 4,
+      "password": "rakesh456"
+    },
+    {
+      "name": "vikas",
+      "username": "vikas123",
+      "email": "vikas@gmail.com",
+      "phone": "444444444444",
+      "id": 5,
+      "password": "vikas456"
+    },
+    {
+      "name": "Jai Kumars",
+      "username": "jk",
+      "email": "jai993943@gmail.com",
+      "phone": "9731494389",
+      "password": "jk461999",
+      "id": 6
+    }
+  ]
+}

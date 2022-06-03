@@ -1,0 +1,22 @@
+{
+  "candidate": [
+    {
+      "id": 1,
+      "name": "Veer",
+      "logo": "https://cdn.pixabay.com/photo/2017/11/02/14/27/model-2911332__340.jpg",
+      "votes": 2
+    },
+    {
+      "id": 2,
+      "name": "Shreedhar.",
+      "logo": "https://cdn.pixabay.com/photo/2016/03/26/20/35/young-man-1281282__340.jpg",
+      "votes": 3
+    },
+    {
+      "id": 3,
+      "name": "Sushma",
+      "logo": "https://media.istockphoto.com/photos/elegant-woman-standing-against-dark-background-picture-id927960572?b=1&k=20&m=927960572&s=170667a&w=0&h=QvmJg5i315MG-Z8BHWN6-02N88Oglt-0SztMrdAOdmU=",
+      "votes": 1
+    }
+  ]
+}
