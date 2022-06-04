@@ -63,7 +63,7 @@ const UserLogin = () => {
               <form onSubmit={handleSubmit} className="flex flex-col align-middle justify-center leading-[3rem] relative left-[10rem] top-[5rem] ">
                 <div className="input-container">
                   <label className='font-bold  '>Username: </label>
-                  <input type="text" name="uname" required placeholder='Enter Admin Name'  className='h-[2rem] w-[15rem] p-2 text-black rounded-sm placeholder:p-1' />
+                  <input type="text" name="uname" required placeholder='Enter user Name'  className='h-[2rem] w-[15rem] p-2 text-black rounded-sm placeholder:p-1' />
                   {renderErrorMessage("uname")}
                 </div>
                 <div className="input-container">

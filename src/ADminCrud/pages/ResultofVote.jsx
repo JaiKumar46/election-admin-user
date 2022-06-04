@@ -4,12 +4,12 @@ import { Table,Avatar ,TableCell, TableRow, TableHead, TableBody, makeStyles, Bu
   const useStyle = makeStyles({
         table: {
             width: '80%',
+            height:'50%',
             margin: '50px 100px 100px 140px',
             color:"white",
-            // backgroundColor:"transparent"
-            // backgroundImage:URL("https://images.unsplash.com/photo-1598802777393-751e5387ecd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dm90aW5nJTIwcG9sbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"),
-            // backgroundRepeat:"no-repeat",
-            // backgroundSize:"cover",
+            position:"relative",
+            top:"20%"
+           
         },
         thead:{
             '& > *':{
@@ -29,9 +29,10 @@ import { Table,Avatar ,TableCell, TableRow, TableHead, TableBody, makeStyles, Bu
         },
         img:{
             '& > *':{
-                height:'30px',
-                width:"30px",
-                borderRadius:"30px",
+                height:'50px',
+                width:"50px",
+                borderRadius:"50px",
+                BoxShadow:"2px 2px 2px 2px white"
             }
         }
     })
@@ -55,9 +56,10 @@ import { Table,Avatar ,TableCell, TableRow, TableHead, TableBody, makeStyles, Bu
     <Table className={classes.table}>
     <TableHead className='shadow-lg shadow-white'>
         <TableRow className={classes.thead}>
-            <TableCell>ID</TableCell>
-            <TableCell>Name</TableCell>
+            <TableCell>ID</TableCell> 
             <TableCell> Avatar </TableCell>
+            <TableCell>Name</TableCell>
+
             <TableCell>Votes</TableCell>
            
         </TableRow>
@@ -67,9 +69,10 @@ import { Table,Avatar ,TableCell, TableRow, TableHead, TableBody, makeStyles, Bu
         candidate.map((data) => (
             <TableRow className={classes.trow}>
                 <TableCell>{data.id}</TableCell>
-                <TableCell>{data.name}</TableCell>
+                
                 <TableCell><Avatar alt={data.name} src={data.logo} className={classes.img} /></TableCell>
-                <TableCell>{data.votes}</TableCell>
+            <TableCell>{data.name}</TableCell>   
+             <TableCell>{data.votes}</TableCell>
               
                
             </TableRow>

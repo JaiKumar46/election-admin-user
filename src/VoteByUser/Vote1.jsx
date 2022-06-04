@@ -1,11 +1,12 @@
 import React,{useState,useEffect} from 'react'
 import {getallUsers,editUser} from "../Service/voteApi"
 import {useNavigate} from "react-router-dom"
+import Timer from "./Timer"
 
 const Vote1 = () => {
     let [candidate,setCandidate]=useState([])
     let navigate=useNavigate()
-
+    
     useEffect(()=>{
         getUsers();
        
@@ -22,7 +23,9 @@ const Vote1 = () => {
         getUsers();
         navigate("/thanku")
 
+
     }
+    
   return (
     <div className='flex h-[70vh] w-full '>
             <h1 className='absolute text-center text-white left-[38%]'>Vote Any Candidate </h1>
@@ -42,6 +45,7 @@ const Vote1 = () => {
                 </div>
             ))
         }
+        <Timer/>
     </div>)
 }
 

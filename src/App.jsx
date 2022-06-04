@@ -12,7 +12,8 @@ import NotFound from "./ADminCrud/pages/NotFound"
 import UserLogin from "./components/User/UserLogin"
 import UserDashBoard from './components/User/UserDashBoard'
 import Thank from "./Voting/Thank"
-import ResultofVote from './ADminCrud/pages/ResultofVote'
+
+import Result from "./ADminCrud/pages/Result" 
 
 const App = () => {
   return (
@@ -26,14 +27,14 @@ const App = () => {
          
           <Route path="/admindashboard" element={<Dashboard1/>}/>
           <Route path="/CrudHome" element={<CrudHome/>} />
-        <Route path="/all" element={<AllUser/>} />
+        <Route path="/admindashboard" element={<AllUser/>} />
         <Route path="/add"element={<AddUser/>} />
         <Route path="/edit/:id" element={<EditUser/>} />
         <Route path='/NotFound' element={<NotFound/>} />
         <Route path="/userlogin" element={<UserLogin/>} />
         <Route path="/userdashboard" element={<UserDashBoard/>}/>
         <Route path='/thanku' element={<Thank/>} />
-        <Route path='/result' element={<ResultofVote/>} />
+        <Route path='/result' element={<Result/>} />
         </Routes>
       </BrowserRouter>
     </div>

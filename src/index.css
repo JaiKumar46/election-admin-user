@@ -12,14 +12,17 @@
 body{
  
   font-family: 'Blaka', cursive;
-  background-image: url("./Assesst/valley-63564__340.jpg");
+  /* background-image: url("./Assesst/valley-63564__340.jpg");
+   */
+   background-image: linear-gradient(to right top, #4507f6, #6102f4, #7600f3, #8800f1, #9703f0, #ca00d6, #ea00bc, #ff00a6, #ff3578, #ff714c, #ffa721, #ffd614);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
+  background-position: center;
   /* background-blend-mode: color;
   background-color: rgba(0, 0, 0, 0.445); */
-
+background-attachment: fixed;
 }
 .ahover{
   color: white;
