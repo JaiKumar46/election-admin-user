@@ -10,7 +10,7 @@
 }
 
 body{
- 
+  overflow-x: hidden;
   font-family: 'Blaka', cursive;
   /* background-image: url("./Assesst/valley-63564__340.jpg");
    */

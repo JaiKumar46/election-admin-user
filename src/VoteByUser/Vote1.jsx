@@ -25,6 +25,7 @@ const Vote1 = () => {
 
 
     }
+
     
   return (
     <div className='flex h-[70vh] w-full '>
