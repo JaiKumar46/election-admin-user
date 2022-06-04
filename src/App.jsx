@@ -9,7 +9,7 @@ import EditUser from "./ADminCrud/pages/EditUser"
 import CrudHome from  "./ADminCrud/pages/CrudHome"
 import AddUser from "./ADminCrud/pages/AddUser"
 import NotFound from "./ADminCrud/pages/NotFound"
-import UserLogin from "./components/User/UserLogin"
+import UserLogin1 from "./components/User/UserLogin1"
 import UserDashBoard from './components/User/UserDashBoard'
 import Thank from "./Voting/Thank"
 
@@ -31,7 +31,7 @@ const App = () => {
         <Route path="/add"element={<AddUser/>} />
         <Route path="/edit/:id" element={<EditUser/>} />
         <Route path='/NotFound' element={<NotFound/>} />
-        <Route path="/userlogin" element={<UserLogin/>} />
+        <Route path="/userlogin1" element={<UserLogin1/>} />
         <Route path="/userdashboard" element={<UserDashBoard/>}/>
         <Route path='/thanku' element={<Thank/>} />
         <Route path='/result' element={<Result/>} />

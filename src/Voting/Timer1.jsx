@@ -2,7 +2,7 @@ import React,{useState,useEffect,useRef} from 'react'
 import {useNavigate} from "react-router-dom"
 
 const Timer1 = () => {
-    const [timer,setTimer]=useState(3)
+    const [timer,setTimer]=useState(2)
     const id=useRef(null)
     let navigate=useNavigate();
     const clear = () => {
@@ -19,7 +19,7 @@ const Timer1 = () => {
       useEffect(() => {
         if (timer === 0) {
           clear();
-          navigate("/userlogin")
+          navigate("/userlogin1")
         }
       }, [timer]);
   return (

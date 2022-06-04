@@ -19,7 +19,7 @@ const Timer = () => {
       useEffect(() => {
         if (timer === 0) {
           clear();
-          navigate("/userlogin")
+          navigate("/userlogin1")
         }
       }, [timer]);
   return (
